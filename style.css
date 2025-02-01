@@ -1,0 +1,42 @@
+* {
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.bar {
+    display:flex;
+    
+}
+img{
+    border:10px solid white;
+}
+.loginbutton{
+    margin-left:20px;
+}
+.title{
+    font-size: 25px;
+}
+button {
+    background-color: blue;
+    border: none;
+    
+    padding:5px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: red;
+}
+
+input {
+    background-color: white;
+    border-radius: 5px;
+    padding:3px;
+    width:250px;
+    color:black;
+}
